@@ -1,12 +1,4 @@
----
-title: "R Markdown e Pétalas"
-output:
-  pdf_document: 
-    keep_tex: yes
-  word_document: default
-  html_document: default
-urlcolor: blue
----
+
 
 
 # O que é R Markdown?
