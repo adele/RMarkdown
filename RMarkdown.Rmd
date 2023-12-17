@@ -275,7 +275,7 @@ Vamos criar um pacote do R usando simples 10 passos!!
     
     Faça as seguintes alterações:
       * selecione a opção "Generate documentation with Roxygen"
-      * no campo _Check Package -- R CMD check additional options_, adicione a opção _–as-cran_ para simular o processo de verificação e teste do CRAN.
+      * no campo _Check Package -- R CMD check additional options_, adicione a opção _ --as-cran_ para simular o processo de verificação e teste do CRAN.
     
 5. Remova os seguintes arquivos que foram gerados por padrão pelo RStudio:
     
