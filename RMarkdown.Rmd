@@ -294,7 +294,8 @@ Vamos criar um pacote do R usando simples 10 passos!!
 
 7. Compile o pacote: 
 
-    > Selecione Build -> Clean and Rebuild. 
+    > Selecione Build -> Build Source Package
+    > Selecione Build -> Install Package 
 
     Note que logo em seguida o pacote é carregado.
     
@@ -314,7 +315,7 @@ Vamos criar um pacote do R usando simples 10 passos!!
 9. Crie uma vignette, que é um guia completo de como usar o seu pacote:
 
         ```{r eval=FALSE, echo=TRUE}
-    devtools::use_vignette("SamplePackageVignette")
+    usethis::use_vignette("SamplePackageVignette")
         ```
     
     Agora temos uma pasta chamada vignettes na pasta principal do pacote, com um exemplo de vignette.
